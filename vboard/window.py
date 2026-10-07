@@ -657,8 +657,8 @@ class VirtualKeyboard(Gtk.Window):
         grid = Gtk.Grid()
         grid.set_row_homogeneous(True)
         grid.set_column_homogeneous(True)
-        grid.set_margin_start(3)
-        grid.set_margin_end(3)
+        # grid.set_margin_start(3)
+        # grid.set_margin_end(3)
         grid.set_name("grid")
         grid.connect("size-allocate", self.on_grid_size_allocate)
         self.grid = grid
@@ -1583,8 +1583,8 @@ class VirtualKeyboard(Gtk.Window):
             }}
 
             #vboard-main headerbar button {{
-                min-width: 40px;
-                min-height: 34px;
+                min-width: 0px;
+                min-height: 0px;
                 padding: 0px;
                 border: 1px solid {rgba((13, 21, 33), 1.0)};
                 border-radius: 8px;
@@ -1601,8 +1601,8 @@ class VirtualKeyboard(Gtk.Window):
             }}
 
             #vboard-main headerbar .titlebutton {{
-                min-width: 50px;
-                min-height: 40px;
+                min-width: 0px;
+                min-height: 0px;
             }}
 
             #vboard-main headerbar button:hover,
@@ -1639,13 +1639,13 @@ class VirtualKeyboard(Gtk.Window):
 
             #vboard-main #grid button label {{
                 color: {rgba((244, 247, 251), 1.0)};
-                font-size: 19px;
+                font-size: 12px;
                 font-weight: 500;
             }}
 
             #vboard-main #grid button {{
-                min-width: 10px;
-                min-height: 52px;
+                min-width: 0px;
+                min-height: 0px;
                 border: 1px solid {rgba((12, 20, 32), 1.0)};
                 border-radius: 8px;
                 background-color: {rgba((48, 58, 76), 1.0)};
@@ -1712,8 +1712,8 @@ class VirtualKeyboard(Gtk.Window):
             }}
 
             #vboard-main #esc-button {{
-                min-width: 60px;
-                min-height: 34px;
+                min-width: 0px;
+                min-height: 0px;
                 border: 1px solid {rgba((17, 24, 36), 1.0)};
                 border-radius: 8px;
                 color: {rgba((247, 248, 251), 1.0)};
@@ -1813,8 +1813,8 @@ class VirtualKeyboard(Gtk.Window):
             }}
 
             #vboard-main headerbar button {{
-                min-width: 40px;
-                min-height: 34px;
+                min-width: 0px;
+                min-height: 0px;
                 padding: 0px;
                 border: 1px solid transparent;
                 border-radius: 6px;
@@ -1826,8 +1826,8 @@ class VirtualKeyboard(Gtk.Window):
             }}
 
             #vboard-main headerbar .titlebutton {{
-                min-width: 50px;
-                min-height: 40px;
+                min-width: 0px;
+                min-height: 0px;
             }}
 
             #vboard-main headerbar button:hover,
@@ -1861,8 +1861,8 @@ class VirtualKeyboard(Gtk.Window):
             }}
 
             #vboard-main #grid button {{
-                min-width: 10px;
-                min-height: 52px;
+                min-width: 0px;
+                min-height: 0px;
                 border: 1px solid transparent;
                 border-radius: 7px;
                 background-color: {rgba(key_rgb, 1.0)};
@@ -1907,8 +1907,8 @@ class VirtualKeyboard(Gtk.Window):
             }}
 
             #vboard-main #esc-button {{
-                min-width: 60px;
-                min-height: 34px;
+                min-width: 0px;
+                min-height: 0px;
                 border: 1px solid transparent;
                 border-radius: 6px;
                 color: rgb({rgb_css(text_rgb)});
@@ -1976,7 +1976,7 @@ class VirtualKeyboard(Gtk.Window):
             }}
 
             #vboard-main headerbar button {{
-                min-width: 40px;
+                min-width: 0px;
                 padding: 0px;
                 border: 0px;
                 margin: 0px;
@@ -1984,8 +1984,8 @@ class VirtualKeyboard(Gtk.Window):
             }}
 
             #vboard-main headerbar .titlebutton {{
-                min-width: 50px;
-                min-height: 40px;
+                min-width: 0px;
+                min-height: 0px;
             }}
 
             #vboard-main headerbar button label {{
@@ -2002,7 +2002,7 @@ class VirtualKeyboard(Gtk.Window):
             }}
 
             #vboard-main #grid button {{
-                min-width: 10px;
+                min-width: 0px;
                 border: 1px solid {self.text_color};
                 background-image: none;
                 padding: 1px;
@@ -2041,7 +2041,7 @@ class VirtualKeyboard(Gtk.Window):
             }}
 
             #vboard-main #esc-button {{
-                min-width: 60px;
+                min-width: 0px;
                 border: 1px solid {self.text_color};
                 background-image: none;
             }}
